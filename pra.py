@@ -1,5 +1,5 @@
 
-# BUDGET CLASS CREATED
+# BUDGET CLASS CREATED WITH A CATEGORY AND AMOUNT PROPERTY
 class Budget:
   def __init__(self,category: str,balance: int):
     self.category = category
