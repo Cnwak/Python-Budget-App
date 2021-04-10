@@ -35,7 +35,7 @@ class Budget:
       to.balance += amount_added
       return "You succesfully transferred ₦%d"%(amount_added)
     else:
-      print("Sorry, an error was encountered. Check the transfer")
+      print("Sorry, an error was encountered. Check the transfer amount or the transfer source.")
 
 
 # INSTANTIATED OBJECTS
